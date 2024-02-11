@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css" />
+    <title>Credit Card</title>
+</head>
+<body>
+<div class="mainContainer">
+    <h1>Pay by Credit Card</h1>
+    <div class="line"></div>
+    <div class="paymentContainer">
+      
+    <div class="itemsContainer">
+
+ <div class="menuTitels">
+    <div><h4>Items</h4></div>
+    <div><h4>Price</h4></div>
+  </div>
+  
+    
+ 
+            <div class="burgerItem" onclick="addToCart('burger');">
+              <div class="itemInfo">
+                <h2>Burger</h2>
+                <img class="itemImage" src="images/burger.jpg" />
+              </div>
+              <div class="itemPrice">
+                <h2>$6</h2>
+              </div>
+            </div>
+
+
+            <div class="pizzaItem" onclick="addToCart('pizza');">
+                <div class="itemInfo">
+                  <h2>Pizza</h2>
+                  <img class="itemImage" src="images/pizza.jpg" />
+                </div>
+                <div class="itemPrice">
+                  <h2>$15</h2>
+                </div>
+              </div>
+
+              <div class="shawarmaItem" onclick="addToCart('shawarma');">
+                <div class="itemInfo">
+                  <h2>Shawarma</h2>
+                  <img class="itemImage" src="images/shawarmeh.jpg" />
+                </div>
+                <div class="itemPrice">
+                  <h2>$4</h2>
+                </div>
+              </div>
+              <div class="crispyItem" onclick="addToCart('crispy');">
+                <div class="itemInfo">
+                  <h2>Crispy</h2>
+                  <img class="itemImage" src="images/crispy.jpeg" />
+                </div>
+                <div class="itemPrice">
+                  <h2>$18</h2>
+                </div>
+              </div>
+
+ 
+              <div class="tacosItem" onclick="addToCart('tacos');">
+                <div class="itemInfo">
+                  <h2>Tacos</h2>
+                  <img class="itemImage" src="images/tacos.webp" />
+                </div>
+                <div class="itemPrice">
+                  <h2>$7</h2>
+                </div>
+              </div>
+
+            </div>
+            <div class="lineVertical"></div>
+
+                <div class="orderContainer">
+                  
+                    <div  class="orderItems">
+                      
+                      <p id="orderItems" > </p>
+                    </div>
+                    <div class="totalPrice">
+                      <p id="totalPrice"></p>
+                    </div>
+                   
+                </div>
+</div>
+        </div>
+
+
+</body>
+<script src="Orders.js"></script>
+</html>

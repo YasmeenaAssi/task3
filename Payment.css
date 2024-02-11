@@ -1,0 +1,123 @@
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(92, 114, 186, 0.998);
+    border:20% black;
+    border-radius: 1%;
+    padding-bottom: 20%;
+  }
+  h1{
+    align-items: center;
+        color: white;
+      }
+      .line{
+     height: 2px;
+        width: 80%;
+      background-color:white; 
+      }
+  .paymentContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 25%;
+  
+  }
+  .itemsContainer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+   flex-direction: column;
+    gap: 2%;
+  }
+ 
+  .menuTitels {
+    width: 50%;
+    height: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 44%;
+   text-decoration: underline;
+   padding-left: 10%;
+   padding-bottom: 0%;
+  }
+  .itemInfo{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.000003%;
+    
+  }
+ 
+  .burgerItem  ,.shawarmaItem,.tacosItem{
+    width:50%;
+    height: 5%;
+    display: flex; 
+  align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(221, 221, 39);
+   gap: 22%;
+  }
+ .pizzaItem,.crispyItem {
+    width: 50%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgb(227, 227, 142);
+    gap: 22%;
+  }
+  img{
+    height: 15%;
+    width: 20%;
+  
+  }
+  .orderContainer{
+    width:20%;
+  height: 70%;
+  border: 2px white ;
+ 
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-items: center;
+  padding-right: 10%;
+  padding-top: 10%;
+
+  }
+  .orderItems {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  .totalPrice{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255); 
+    margin-top: 6%;
+  }
+  .lineVertical{
+    height: 100%;
+    width: 2px;
+    background-color:white; 
+  }
+  .h2{
+    font-size: 20%;
+  }
